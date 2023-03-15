@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68128a56-b93b-44c9-99ec-8d61dd8e348a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/less/extra.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/less/fonts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/less/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/400/poppins400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/400/poppins400.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/400/poppins400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/400/poppins400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/500/poppins500.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/500/poppins500.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/500/poppins500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/500/poppins500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/600/poppins600.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/600/poppins600.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/600/poppins600.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/600/poppins600.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/700/poppins700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/700/poppins700.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/700/poppins700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/700/poppins700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/900/poppins900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/900/poppins900.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/900/poppins900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/poppins/900/poppins900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/roboto-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/roboto-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/roboto-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/roboto-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N3QwI68sYE6htiyFOgTG8NIOVI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "Less",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\code\GitHUB\09-fashion\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68128a56-b93b-44c9-99ec-8d61dd8e348a" name="Changes" comment="" />
+      <created>1678890524336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678890524336</updated>
+      <workItem from="1678890525859" duration="3027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

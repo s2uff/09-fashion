@@ -1,0 +1,139 @@
+/* Подключение шрифтов */
+/* Roboto */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  src: local("Roboto"), url("../fonts/roboto/roboto-regular.ttf") format("ttf"), url("../fonts/roboto/roboto-regular.woff2") format("woff2"), url("../fonts/roboto/roboto-regular.woff") format("woff"), url("../fonts/roboto/roboto-regular.eot") format('embedded-opentype');
+  font-display: swap;
+}
+/* Poppins */
+@font-face {
+  font-family: 'Poppins-900';
+  font-style: normal;
+  src: local("Poppins"), url("../fonts/poppins/900/poppins900.otf") format("ttf"), url("../fonts/poppins/900/poppins900.woff2") format("woff2"), url("../fonts/poppins/900/poppins900.woff") format("woff"), url("../fonts/poppins/900/poppins900.eot") format('embedded-opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins-700';
+  font-style: normal;
+  src: local("Poppins"), url("../fonts/poppins/700/poppins700.otf") format("ttf"), url("../fonts/poppins/700/poppins700.woff2") format("woff2"), url("../fonts/poppins/700/poppins700.woff") format("woff"), url("../fonts/poppins/700/poppins700.eot") format('embedded-opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins-600';
+  font-style: normal;
+  src: local("Poppins"), url("../fonts/poppins/600/poppins600.otf") format("ttf"), url("../fonts/poppins/600/poppins600.woff2") format("woff2"), url("../fonts/poppins/600/poppins600.woff") format("woff"), url("../fonts/poppins/600/poppins600.eot") format('embedded-opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins-500';
+  font-style: normal;
+  src: local("Poppins"), url("../fonts/poppins/500/poppins500.otf") format("ttf"), url("../fonts/poppins/500/poppins500.woff2") format("woff2"), url("../fonts/poppins/500/poppins500.woff") format("woff"), url("../fonts/poppins/500/poppins500.eot") format('embedded-opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins-400';
+  font-style: normal;
+  src: local("Poppins"), url("../fonts/poppins/400/poppins400.otf") format("ttf"), url("../fonts/poppins/400/poppins400.woff2") format("woff2"), url("../fonts/poppins/400/poppins400.woff") format("woff"), url("../fonts/poppins/400/poppins400.eot") format('embedded-opentype');
+  font-display: swap;
+}
+/* Переменные и миксины */
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* Header */
+.main-header {
+  max-width: 1920px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 46px 100px 63px 100px;
+  background-color: white;
+}
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.logo {
+  text-decoration: none;
+}
+.logo-txt {
+  font-family: 'Poppins-900', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0 0 0 13px;
+}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 65px;
+}
+.menu-link {
+  display: block;
+  text-decoration: none;
+  font-family: 'Poppins-500', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #242323;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.menu-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.menu-link:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.signUpBtn {
+  background: #000000;
+  border-radius: 7px;
+  padding: 0 22px;
+  line-height: 50px;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.signUpBtn:hover {
+  background: white;
+  outline: 1px solid #000000;
+  color: #000000;
+}
+.signUpBtn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=style.css.map */
