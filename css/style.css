@@ -38,11 +38,46 @@
   font-display: swap;
 }
 /* Переменные и миксины */
+body {
+  background-color: #F5F5F5;
+}
 .container {
   max-width: 1920px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+/* Кнопка Shop now */
+.shopBtn {
+  display: block;
+  width: 221px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 10px;
+  font-family: Poppins-500, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 82px;
+  letter-spacing: -0.05em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.shopBtn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  outline: 1px solid #000000;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.shopBtn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 /* Header */
 .main-header {
@@ -122,6 +157,8 @@
   background: #000000;
   border-radius: 7px;
   padding: 0 22px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   line-height: 50px;
   color: white;
   -webkit-transition: 0.3s;
@@ -135,5 +172,35 @@
 .signUpBtn:active {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
+}
+.banner {
+  margin-top: 56px;
+  padding: 80px 0 90px 120px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("../img/decorate/headerBg.png");
+  border-radius: 59px;
+}
+.bigSlogan {
+  font-family: Poppins-900, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.smallSlogan {
+  font-family: Poppins-400, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+  color: #191818;
+  margin: 25px 0;
+}
+.bannerShopBtn {
+  margin: 0 0 0 250px;
 }
 /*# sourceMappingURL=style.css.map */
