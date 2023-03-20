@@ -1,0 +1,80 @@
+/* Payday section */
+
+.payday {
+    padding: 130px 200px 155px 0;
+    box-sizing: border-box;
+    background-image: url("../img/decorate/payday_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paydayContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 650px;
+
+    position: relative;
+}
+
+.paydayContent:before {
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 540px;
+    height: 130px;
+    z-index: 0;
+
+    transform: rotate(-2deg);
+    position: absolute;
+    top: -2px;
+    left: -21px;
+}
+
+.paydayHeading {
+    font-family: Poppins-900, Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 111.608px;
+    line-height: 137px;
+    color: #000000;
+
+    z-index: 1;
+}
+
+.paydayDiscriprion {
+    font-family: Poppins-500, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36.0402px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #231300;
+}
+
+.paydayDates {
+    font-family: Poppins-700, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.0402px;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.payday-conditions {
+    font-family: Poppins-400, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36.0402px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #000000;
+
+    margin: 0 0 50px 0;
+}

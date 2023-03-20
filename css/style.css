@@ -346,4 +346,87 @@ main {
   color: #7F7F7F;
   margin: 0 0 20px 20px;
 }
+/* Payday section */
+.payday {
+  padding: 130px 200px 155px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("../img/decorate/payday_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.paydayContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 650px;
+  position: relative;
+}
+.paydayContent:before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 540px;
+  height: 130px;
+  z-index: 0;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+  position: absolute;
+  top: -2px;
+  left: -21px;
+}
+.paydayHeading {
+  font-family: Poppins-900, Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 111.608px;
+  line-height: 137px;
+  color: #000000;
+  z-index: 1;
+}
+.paydayDiscriprion {
+  font-family: Poppins-500, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36.0402px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #231300;
+}
+.paydayDates {
+  font-family: Poppins-700, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36.0402px;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.payday-conditions {
+  font-family: Poppins-400, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.0402px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 0 0 50px 0;
+}
 /*# sourceMappingURL=style.css.map */
